@@ -7,6 +7,7 @@ runs:
     - name: debug sub action
       run: |
         ls -aR
+      shell: bash
     - name: call script
       run: |
         node myscript.js
