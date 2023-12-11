@@ -8,3 +8,4 @@ runs:
       run: |
         cd .github/workflows
         node myscript.js
+      shell: bash
