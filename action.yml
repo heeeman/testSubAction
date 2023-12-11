@@ -4,6 +4,9 @@ description: 'Testet eine Node.js-Anwendung'
 runs:
   using: 'composite'
   steps: 
+    - name: debug sub action
+      run: |
+        ls -aR
     - name: call script
       run: |
         node myscript.js
