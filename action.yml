@@ -1,0 +1,10 @@
+name: 'Teste Node.js App'
+description: 'Testet eine Node.js-Anwendung'
+
+runs:
+  using: 'composite'
+  steps: 
+    - name: call script
+      run: |
+        cd .github/workflows
+        node myscript.js
