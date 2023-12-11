@@ -5,4 +5,6 @@ runs:
   using: 'composite'
   steps: 
     - name: call script
-      run: node myscript.js
+      run: |
+        cd .github/workflows
+        node myscript.js
